@@ -1,6 +1,6 @@
-}
 body {
     margin: 0;
+    font-family: 'Mulish', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Mulish', sans-serif;
@@ -27,17 +27,24 @@ h6 {
 p {
    color: #333;
 }
+
+nav a {
+    font-size: 16px;
+    font-weight: 200;
+}
+
 div {
     /* border: 1px #333 solid; */
 }
 section {
-    background-color: lightgray;
+    background-color: #F1FAFF;
     padding: 80px 40px;
 }
 header {
     justify-content: space-around;
     align-items: center;
-    padding: 36px;
+    padding: 10px;
+    height: 60px; 
 }
 footer {
     justify-content: space-evenly;
@@ -113,6 +120,7 @@ a.cv-button:active {
 }
 .container {
     display: flex;
+    background-color: #FFDCDC;
 }
 .author-card {
     align-items: center;
@@ -164,7 +172,7 @@ input {
     padding: 16px 24px;
     margin: 8px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: none;
 }
 
 input:focus {
