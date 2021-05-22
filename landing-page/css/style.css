@@ -1,0 +1,13 @@
+section {
+    background-color: lightgray;
+    padding: 80px 40px;
+}
+
+#hero {
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+}
+#hero div {
+    padding: 20px;
+}
