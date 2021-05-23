@@ -15,6 +15,20 @@
 }
 
 @font-face {
+    font-family: "nalisa-regular";
+    src: url("../fonts/naslisa/nalisa-regular-webfont.woff2") format("woff2"), url("../fonts/naslisa/nalisa-regular-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Nalisa-Regular";
+    src: url("../fonts/naslisa/Nalisa-Regular.otf") format("otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "lora-italic";
     src: url("../fonts/lora/lora-italic-webfont.woff2") format("woff2"), url("../fonts/lora/lora-italic-webfont.woff") format("woff");
     font-style: normal;
