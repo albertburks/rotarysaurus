@@ -872,7 +872,7 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
+    /*border: 0.2rem solid #39b54a;*/
     color: #39b54a;
 }
 
@@ -1213,7 +1213,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "rollgates-regular", sans-serif;
     font-size: 7.8rem;
     line-height: 1.25;
     color: #000000;
@@ -1471,14 +1471,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## main navigation 
  * ------------------------------------------------------------------- */
 .header-nav {
-    background: #0C0C0C;
+    background: #FFF5D4;
     color: rgba(255, 255, 255, 0.25);
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
     height: 100%;
-    width: 280px;
+    width: 100%;
     position: fixed;
     right: 0;
     top: 0;
@@ -1513,7 +1513,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: #FFF5D4;
 }
 
 .header-nav p {
@@ -1528,8 +1528,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.8rem;
+    font-family: "apercu-light", sans-serif;
+    font-size: 12rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
     list-style: none;
@@ -1537,12 +1537,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav__list li {
     padding-left: 0;
-    line-height: 4.5rem;
+    line-height: 14rem;
 }
 
 .header-nav__list a,
 .header-nav__list a:visited {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .header-nav__social {
@@ -1576,7 +1576,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 30px;
     width: 30px;
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
     position: absolute;
     top: 36px;
     right: 30px;
@@ -1592,7 +1592,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     height: 2px;
     width: 12px;
-    background-color: #FFFFFF;
+    background-color: #000000;
     position: absolute;
     top: 50%;
     left: 9px;
@@ -1788,6 +1788,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
+    border-bottom: .1rem solid #FFF5D4
 }
 
 .home-content h3 {
@@ -1803,11 +1804,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "Nalisa-Regular", sans-serif;
-    font-size: 10.3rem;
-    line-height: 1.333;
+    font-family: "rollgates-regular", sans-serif;
     margin-top: 0;
     color: #FFFFFF;
+}
+
+.home-content h2 {
+    font-family: "rollgates-regular", sans-serif;
+    font-size: 14.3rem;
+    line-height: 10rem;
+    margin-top: 0;
+    color: #FFF5D4;
+}
+
+.home-content .myname {
+    font-size: 22.3rem;
+    line-height: 15rem;
 }
 
 .home-content__main {
@@ -1944,7 +1956,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #FFF5D4;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2200,8 +2212,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
-    color: #010507;
+    background-color: #0D0D0D;
+    color: #FFF5D4;
     position: relative;
 }
 

@@ -22,8 +22,15 @@
 }
 
 @font-face {
-    font-family: "Nalisa-Regular";
-    src: url("../fonts/naslisa/Nalisa-Regular.otf") format("otf");
+    font-family: "rollgates-regular";
+    src: url("../fonts/rollgates/rollgates_fabulous-webfont.woff2") format("woff2"), url("../fonts/rollgates/rollgates_fabulous-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "apercu-light";
+    src: url("../fonts/apercu/apercu_light-webfont.woff2") format("woff2"), url("../fonts/apercu/apercu_light-webfont.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
