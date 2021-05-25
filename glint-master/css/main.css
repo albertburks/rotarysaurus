@@ -1813,8 +1813,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h2 {
     font-family: "rollgates-regular", sans-serif;
-    font-size: 14.3rem;
-    line-height: 10rem;
+    font-size: 18rem;
+    line-height: 12rem;
     margin-top: 0;
     color: #FFF5D4;
 }
@@ -1825,7 +1825,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__main {
-    padding-top: 14rem;
+    padding-top: 13rem;
     position: relative;
 }
 
