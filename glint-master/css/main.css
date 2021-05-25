@@ -1815,7 +1815,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "rollgates-regular", sans-serif;
     font-size: 18rem;
     line-height: 12rem;
-    margin-top: 0;
+    margin-top: -2rem;
     color: #FFF5D4;
 }
 
@@ -2137,7 +2137,13 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .home-content h1 {
-        font-size: 3.8rem;
+        font-size: 7.8rem !important;
+        line-height: 6rem !important;
+    }
+    .home-content h2 {
+        font-size: 7.8rem !important;
+        line-height: 6rem !important;
+        margin-top:-2.5rem;
     }
     .home-social {
         right: 2rem;
