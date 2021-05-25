@@ -111,7 +111,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "apercu-light", sans-serif;
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -186,7 +186,7 @@ p img {
 }
 
 p.lead {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "apercu-light", sans-serif;
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.8;
@@ -832,9 +832,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
-    color: #FFFFFF;
+    background: #FFF5D4;
+    border-color: #FFF5D4;
+    color: #C2AA58;
 }
 
 .btn.btn--primary:hover,
@@ -847,8 +847,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
 }
 
 
@@ -1788,7 +1789,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
-    border-bottom: .1rem solid #FFF5D4
+    border-bottom: .1rem solid #FFFFFF;
 }
 
 .home-content h3 {
@@ -1823,7 +1824,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__main {
-    padding-top: 24rem;
+    padding-top: 14rem;
     position: relative;
 }
 
@@ -1895,7 +1896,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__line {
     display: block;
     width: 1px;
-    height: 40.2rem;
+    height: 20.2rem;
     background-color: #ffffff;
     position: absolute;
     right: 7.2rem;
@@ -2222,6 +2223,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
+    font-family: "apercu-light", sans-serif;
     font-size: 2.4rem;
     line-height: 1.75;
     text-align: center;
@@ -2271,8 +2273,8 @@ html.no-csstransitions .home-content__main {
 
 .about__line {
     display: block;
-    width: 2px;
-    height: 10.2rem;
+    width: 1px;
+    height: 100%;
     background-color: #FFFFFF;
     position: absolute;
     right: 7.2rem;
@@ -3002,9 +3004,9 @@ html.no-csstransitions .home-content__main {
 
 .contact__line {
     display: block;
-    width: 2px;
+    width: 1px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: #FFF5D4;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3031,7 +3033,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #FFF5D4;
 }
 
 .contact-content input[type="email"],
@@ -3195,7 +3197,7 @@ html.no-csstransitions .home-content__main {
 
 .submit-loader .text-loader {
     display: none;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "apercu-light", sans-serif;
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;
@@ -3344,7 +3346,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 footer {
     padding: 9rem 0 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "apercu-light", sans-serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
@@ -3395,7 +3397,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
+    background: url("../images/monogram.svg") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
@@ -3463,7 +3465,7 @@ footer .row {
 
 .footer-subscribe #mc-form label {
     color: #FFFFFF;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "apercu-light", sans-serif;
     font-size: 1.3rem;
     padding: 0 2rem;
 }
